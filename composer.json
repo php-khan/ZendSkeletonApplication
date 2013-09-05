@@ -10,7 +10,12 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.2.*",
-        "doctrine/doctrine-orm-module": "0.8.*@dev",
+        "doctrine/orm": "2.3.4",
+        "doctrine/dbal": "2.3.4",
+        "doctrine/data-fixtures": "dev-master",
+        "doctrine/migrations": "v1.0-ALPHA1",
+        "doctrine/doctrine-module": "0.*",
+        "doctrine/doctrine-orm-module": "0.*",
         "hounddog/doctrine-data-fixture-module": "dev-master",
         "murganikolay/doctrine-migrations-module": "1.0.0",
         "gedmo/doctrine-extensions": "2.3.*",
